@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.page_container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.notifications_container {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 667px) {
+  .notifications_container {
+    width: 80%;
+  }
+}
+
+.heading {
+  color: rgb(6, 6, 26);
+  font-size: 24px;
+  font-weight: 900;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.warning {
+  color: yellow;
+}
+
+.info {
+  color: blue;
+}
+.icon {
+  align-self: flex-start;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 30px;
+  width: 30px;
+}
+p {
+  color: rgb(56, 54, 54);
+  font-weight: 500;
+  font-size: 15px;
+}

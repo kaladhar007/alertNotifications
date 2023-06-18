@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.notification_card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid rgb(70, 62, 62);
+  /* padding: 20px; */
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.heading_description {
+  width: 70%;
+}
+
+.heading {
+}
+
+.description {
+}
